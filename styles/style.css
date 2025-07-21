@@ -1,1 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* =================== */
 
+/* common css */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 24px;
+  border: 1px solid #e02c6d;
+  border-radius: 41px;
+  background: rgb(224, 44, 109);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: transparent;
+  border: 1px solid #e02c6d;
+  color: rgb(58, 58, 58);
+}
+
+/* =================== */
+
+/* Navbar css  */
+header {
+  margin: 20px 0 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .brand a {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+header nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 34px;
+}
+header nav .menu a {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: 0.5s;
+}
+header nav .menu a:hover {
+  color: #e02c6d;
+}
+/* ========== */
+
+/* banner style css */
+#banner-part .banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+}
+#banner-part .banner-content .left {
+  flex: 1;
+}
+#banner-part .banner-content .right {
+  flex: 1;
+}
+
+#banner-part .banner-content .left h1 {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+}
+#banner-part .banner-content .left p {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 16px 0;
+}
+
+#banner-part .banner-content .right {
+  background: url(../images/Circle-design.svg) no-repeat center;
+}
+#banner-part .banner-content .right img {
+  width: 100%;
+}
