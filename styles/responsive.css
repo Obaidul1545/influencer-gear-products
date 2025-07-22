@@ -27,11 +27,13 @@
     top: 60px;
     left: 0;
     width: 150px;
-    transform: translateX();
+    transform: translateX(-100%);
   }
-  header nav .menu-bars:hover .menu {
-    transform: translateX();
+  header nav .menu-bars:hover ~ .menu {
+    transform: translateX(0);
+    transition: 0.5s;
   }
+
   header nav .menu li {
     width: 100%;
     padding: 5px;
