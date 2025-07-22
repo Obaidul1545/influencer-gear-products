@@ -59,6 +59,7 @@ header nav .menu {
   justify-content: space-between;
   align-items: center;
   gap: 34px;
+  /* display: none; */
 }
 header nav .menu a {
   color: rgb(58, 58, 58);
@@ -70,6 +71,13 @@ header nav .menu a {
 }
 header nav .menu a:hover {
   color: #e02c6d;
+}
+
+header nav .menu-bars {
+  display: none;
+}
+header nav .sopping-icon {
+  display: none;
 }
 /* ========== */
 
@@ -119,6 +127,12 @@ header nav .menu a:hover {
   display: flex;
   justify-content: space-between;
   padding: 0 100px;
+}
+#selling-web .container img {
+  transition: 0.5s;
+}
+#selling-web .container img:hover {
+  transform: scale(1.4);
 }
 /* ============== */
 /* Popular Collection style css  */
@@ -223,6 +237,9 @@ header nav .menu a:hover {
   align-items: center;
   gap: 96px;
 }
+#featured-products .featured-content .left img {
+  width: 100%;
+}
 #featured-products .featured-content .right h2 {
   color: rgb(10, 8, 38);
   font-family: Poppins;
@@ -273,4 +290,15 @@ footer .footer-content .social-icon a {
   line-height: 24px;
   margin-right: 15px;
 }
+footer .footer-content .social-icon i {
+  transition: 0.3s;
+}
+footer .footer-content .social-icon i:hover {
+  transform: scale(1.5);
+  color: rgb(224, 44, 109);
+}
 /* ====================== */
+
+.hide {
+  display: none;
+}
